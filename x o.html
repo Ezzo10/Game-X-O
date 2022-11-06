@@ -136,20 +136,23 @@ body {
     {
       end(2,5,7);
       h.innerHTML = "Félicitation tu as gagné"
-
     }
     if(carres[1] == carres[5] && carres[5] == carres[9] && carres[1]  !='' )
       {
         end(1,5,9);
         h.innerHTML = "Félicitation tu as gagné"
-
       }
       else if(carres[3] == carres[5] && carres[5] == carres[7] && carres[7] !='' )
     {
       end(3,5,7);
       h.innerHTML = "Félicitation tu as gagné"
-
     }
+    else if(carres[2] == carres[5] && carres[5] == carres[8] && carres[2] !='' )
+    {
+      end(2,5,8);
+      h.innerHTML = "Félicitation tu as gagné"
+    }
+    
         }
 
         function game (id)
